@@ -1,0 +1,44 @@
+.active{
+    color: green !important;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(14,12,18);
+}
+
+p, h1, h2, h3, label{
+    color: white;
+}
+
+.img-rounded{
+    border-radius: 50%;
+}
+
+.img-icon{
+    max-height: 64px;
+    min-width: 64px;
+}
+
+.texto-negro{
+    color: rgb(24, 22, 27)
+}
+
+.img-cert{
+    max-width: 218px;
+    border-radius: 10%;
+}
+
+.card-item{
+    max-width: 250px;
+    background-color: rgb(57, 57, 57);
+    border-radius: 10%;
+}
+
+.card:hover{
+    background-color: green;
+}
+
+.form-control:focus {
+    border-color: rgb(7, 255, 7);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px green;
+  }
